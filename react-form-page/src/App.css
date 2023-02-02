@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   flex-direction: column;
+    background-color: chocolate;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    
+}
+.container{
+    
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    margin: 2rem;
+    text-align: center;
+}
+input{
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    display: block;
+    margin: 2rem;
+}
+input.btn{
+    background-color: rgb(116, 185, 116);
+    
+ border-radius:10%; 
+ border: none;
+ padding: 0.5rem;
+
+ 
+}
+btn:hover{
+    color: black;
+}
