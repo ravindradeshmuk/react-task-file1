@@ -7,14 +7,14 @@ const FormA = () => {
   const [ Password, setPassword] = useState()
   const submitHandler = (e) => {
     e.preventDefault();
-    const obj = {
+    {Form = {
       FirstName,
       LastName,
       Email,
       Password,
     };
-    console.log(obj);
-  };
+    
+  }};
 
    return (
     <>
